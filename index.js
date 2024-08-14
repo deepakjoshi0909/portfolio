@@ -24,7 +24,7 @@ function typeText(){
         setTimeout(typeText,1000);
         return;
     }
-    element.textContent = currWord.substring(0, currText.length + direction); // Append next character or remove last character
+    element.textContent = currWord.substring(0, currText.length + direction); 
     setTimeout(typeText, 100); 
 }
 
